@@ -5,5 +5,7 @@
 
 В интернете есть разные способы «русификации» git, но мне помог простейший способ, состоящий в прописывании в системе переменной окружения LANG=ru_RU.utf8.
 
-После перезагрузки Windows git будет правильно отображать unicode как в консоли Windows, так и в терминале phpStorm.
-http://linux.bolden.ru/git-russian-windows-console/
+После перезагрузки Windows git будет правильно отображать unicode как в консоли Windows, так и в терминале phpStorm.  
+
+
+[](http://linux.bolden.ru/git-russian-windows-console/)
