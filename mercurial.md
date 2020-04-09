@@ -23,6 +23,6 @@ This will give you last 10 commits within this date range (3 char for each month
 
 And goes on..
 
-Full example and option are available in this link : Here
+Full example and option are available in this link : [Here](http://www.selenic.com/hg/help/log)
 
 https://stackoverflow.com/questions/6835511/hg-log-how-to-get-the-last-5-log-entries
