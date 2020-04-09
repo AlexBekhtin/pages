@@ -1,1 +1,3 @@
-# Links collection and memories
+# Заметки
+
+* [git](git.md)
