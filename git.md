@@ -6,6 +6,23 @@
 В интернете есть разные способы «русификации» git, но мне помог простейший способ, состоящий в прописывании в системе переменной окружения LANG=ru_RU.utf8.
 
 После перезагрузки Windows git будет правильно отображать unicode как в консоли Windows, так и в терминале phpStorm.  
+http://linux.bolden.ru/git-russian-windows-console/
 
+---
+### How to have git log show filenames like svn log -v
 
-[](http://linux.bolden.ru/git-russian-windows-console/)
+For full path names of changed files:
+
+`git log --name-only`
+
+For full path names and status of changed files:
+
+`git log --name-status`
+
+For abbreviated pathnames and a diffstat of changed files:
+
+`git log --stat`
+
+There's a lot more options, [check out the docs](https://git-scm.com/docs/git-log).
+
+https://stackoverflow.com/questions/1230084/how-to-have-git-log-show-filenames-like-svn-log-v
