@@ -1,3 +1,4 @@
 # Заметки
 
-* [git](git.md)
+* [Git](git.md)
+* [Mercurial / hg](mercurial.md)
