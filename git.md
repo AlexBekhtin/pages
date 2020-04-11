@@ -27,3 +27,14 @@ For abbreviated pathnames and a diffstat of changed files:
 There's a lot more options, [check out the docs](https://git-scm.com/docs/git-log).
 
 https://stackoverflow.com/questions/1230084/how-to-have-git-log-show-filenames-like-svn-log-v
+---
+### Популярные алиасы для git
+`git config --global -e`
+
+```git
+[alias]
+  tree = log --graph --decorate  --abbrev-commit --all
+  tr = log --graph --decorate --pretty=oneline --abbrev-commit --all
+```
+
+
